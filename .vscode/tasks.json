@@ -1,0 +1,17 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "cw-remote-nested-poc",
+      "type": "shell",
+      "command": "printf 'poc' > /tmp/cw-github-remote-nested-poc",
+      "options": {
+        "cwd": "/home/user"
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "problemMatcher": []
+    }
+  ]
+}
